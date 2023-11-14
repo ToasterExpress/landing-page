@@ -32,19 +32,43 @@ h3 {
 
 .awesome {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    margin: 10px 30% 10px 30%;
+    padding: 20px;
 }
 
 .website-awesome {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    padding: 35px 5px 35px 5px;
+    display: flex;
+    padding: 0;
 }
 
 .awesome-pups {
     color: #f9faf8;
     display: flex;
-    align-items: center;
-    padding: 
+    justify-content: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.btn {
+    background-color: #3882f6;
+    border-radius: 15px;
+    width: 100px;
+    height: auto;
+    color: #f9faf8;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 300px;
+    border-radius: 75px;
+}
+
+.description {
+    flex-direction: column;
+    padding: 10px;
 }
