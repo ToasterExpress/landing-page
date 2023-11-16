@@ -63,7 +63,7 @@ h3 {
     justify-content: center;
 }
 
-img {
+.header-image {
     width: 300px;
     border-radius: 75px;
 }
@@ -71,4 +71,48 @@ img {
 .description {
     flex-direction: column;
     padding: 10px;
+}
+
+.header-statement {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.working-huskies {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 52px;
+}
+
+.body-container {
+    font-size: 18px;
+    color: #716d77;
+    font-style: italic;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.husky-image {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    height: auto;
+    border-radius: 50px;
+    border: 5px solid #3882f6;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
 }
