@@ -117,12 +117,12 @@ h3 {
     justify-content: center;
 }
 
-.footer-container {
+.quote-container {
     background-color: #e5e7eb;
 }
 
-.footer-text,
-.footer-author {
+.quote-text,
+.quote-author {
     display: flex;
     justify-content: center;
     font-size: 36px;
@@ -131,9 +131,57 @@ h3 {
     padding: 8% 0 0 0;
 }
 
-.footer-author {
+.quote-author {
     display: flex;
     justify-content: flex-end;
     font-style: bold;
     padding: 0 27% 8% 0;
 }
+
+.action-container {
+    background-color: #fff;
+     display: flex;
+     justify-content: center;
+     margin: 5%;
+   }
+   
+   .action-call,
+   .action-box {
+     display: flex;
+     flex-direction: column;
+     background-color: #3882f6;
+     padding: 0 60px 0 0;
+     border-radius: 15px;;
+     padding: 20px 100px ;
+   }
+   
+   .action-box {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+   }
+   
+   .action-text-bold {
+     font-weight: bold;
+     color: #fff;
+   }
+   
+   .action-text {
+     color: #fff;
+   }
+   
+   .btn1 {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     max-height: 30px;
+   }
+   
+   .footer-container {
+     background-color: #1F2937;
+     display: flex;
+     justify-content: center;
+     padding: 40px;
+     color: #fff;
+   }
+   
